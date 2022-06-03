@@ -54,6 +54,12 @@ Error generating stack: `+o.message+`
     border-radius: 8px; 
     display: block;
     justify-content: center;
+
+    @media screen and(max-width: 725px){
+        width: 327px;
+        height: 780px;
+    }
+
 `,ym=Te.div`
     padding-right: 62px;
 `,gm=Te.div`
@@ -114,7 +120,7 @@ Error generating stack: `+o.message+`
     margin: 0%;
     color: #868495;
 
-`,_m=Te.img`
+`;var _m="/06-Stat-Card/assets/image-header-desktop.c3703b29.jpg";const Pm=Te.img`
 
     position: absolute;
     width: 500px;
@@ -122,26 +128,31 @@ Error generating stack: `+o.message+`
     background: #AB5CDB;
     opacity: 0.75;
     mix-blend-mode: multiply;
-    background-image: url('../src/images/image-header-desktop.jpg');
+    background-image: url(${_m});
+
+    /* @media screen and(max-width: 725px){
+        width: 327px;
+        height: 240px;
+    } */
     
-`,Pm=Te.div`
+`,Nm=Te.div`
     /* display: flex; */
     float: right;
     width: 874px;
     height: 582;
     padding: 0px 0px 150px 610px;
-`,Nm=Te.div`
+`,zm=Te.div`
     width: 500px;
     height: 446px;
     position: absolute;
     background: rgba(171, 92, 219, 1);
     border-radius: 0px 8px 8px 0px;
-`,zm=Te.div`
+`,Tm=Te.div`
     width: 1110px;
     height: 446px;
     display: grid;
     /* align-items: center; */
-`,Tm=Te.span`
+`,$m=Te.span`
     color: #ab5cdb;
     /* font-size: 36px; */
     /* font-family: 'Inter', sans-serif; */
@@ -157,4 +168,4 @@ Error generating stack: `+o.message+`
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */var $m=Qt.exports,Rm=Symbol.for("react.element"),Lm=Symbol.for("react.fragment"),Om=Object.prototype.hasOwnProperty,Am=$m.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,Im={key:!0,ref:!0,__self:!0,__source:!0};function qf(e,t,n){var r,l={},o=null,i=null;n!==void 0&&(o=""+n),t.key!==void 0&&(o=""+t.key),t.ref!==void 0&&(i=t.ref);for(r in t)Om.call(t,r)&&!Im.hasOwnProperty(r)&&(l[r]=t[r]);if(e&&e.defaultProps)for(r in t=e.defaultProps,t)l[r]===void 0&&(l[r]=t[r]);return{$$typeof:Rm,type:e,key:o,ref:i,props:l,_owner:Am.current}}No.Fragment=Lm;No.jsx=qf;No.jsxs=qf;os.exports=No;const Me=os.exports.jsx,Rt=os.exports.jsxs;function Mm(){return Me(gm,{children:Me(vm,{children:Rt(zm,{children:[Rt(Pm,{children:[Me(Nm,{}),Me(_m,{})]}),Rt(Em,{children:[Rt(xm,{children:["Get ",Me(Tm,{children:"insights"})," that help your business grow."]}),Me(Cm,{children:"Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency."}),Rt(wm,{children:[Rt(ym,{children:[Me(ri,{children:"10K+"}),Me(li,{children:"companies"})]}),Rt(km,{children:[Me(ri,{children:"314"}),Me(li,{children:"templates"})]}),Rt(Sm,{children:[Me(ri,{children:"12M+"}),Me(li,{children:"queries"})]})]})]})]})})})}oi.createRoot(document.getElementById("root")).render(Me(Or.StrictMode,{children:Me(Mm,{})}));
+ */var Rm=Qt.exports,Lm=Symbol.for("react.element"),Om=Symbol.for("react.fragment"),Am=Object.prototype.hasOwnProperty,Im=Rm.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,Mm={key:!0,ref:!0,__self:!0,__source:!0};function qf(e,t,n){var r,l={},o=null,i=null;n!==void 0&&(o=""+n),t.key!==void 0&&(o=""+t.key),t.ref!==void 0&&(i=t.ref);for(r in t)Am.call(t,r)&&!Mm.hasOwnProperty(r)&&(l[r]=t[r]);if(e&&e.defaultProps)for(r in t=e.defaultProps,t)l[r]===void 0&&(l[r]=t[r]);return{$$typeof:Lm,type:e,key:o,ref:i,props:l,_owner:Im.current}}No.Fragment=Om;No.jsx=qf;No.jsxs=qf;os.exports=No;const Me=os.exports.jsx,Rt=os.exports.jsxs;function Dm(){return Me(gm,{children:Me(vm,{children:Rt(Tm,{children:[Rt(Nm,{children:[Me(zm,{}),Me(Pm,{})]}),Rt(Em,{children:[Rt(xm,{children:["Get ",Me($m,{children:"insights"})," that help your business grow."]}),Me(Cm,{children:"Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency."}),Rt(wm,{children:[Rt(ym,{children:[Me(ri,{children:"10K+"}),Me(li,{children:"companies"})]}),Rt(km,{children:[Me(ri,{children:"314"}),Me(li,{children:"templates"})]}),Rt(Sm,{children:[Me(ri,{children:"12M+"}),Me(li,{children:"queries"})]})]})]})]})})})}oi.createRoot(document.getElementById("root")).render(Me(Or.StrictMode,{children:Me(Dm,{})}));
