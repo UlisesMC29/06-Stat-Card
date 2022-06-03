@@ -16,6 +16,7 @@ import { ImgContainer } from './Components/ImgContainer'
 import { Capa } from './Components/Capa'
 import { CardContent } from './Components/CardContent'
 import { Font } from './Components/Font'
+import ImgHeader from './images/image-header-desktop.jpg'
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
         <CardContent>
           <ImgContainer>
             <Capa />
-            <Img />
+            <Img src={ImgHeader} />
           </ImgContainer>
           <Txtcontainer>
             <Title>Get <Font>insights</Font> that help your business grow.</Title>
