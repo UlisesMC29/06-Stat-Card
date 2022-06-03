@@ -8,4 +8,10 @@ export const Card = styled.div`
     border-radius: 8px; 
     display: block;
     justify-content: center;
+
+    @media screen and(max-width: 725px){
+        width: 327px;
+        height: 780px;
+    }
+
 `;

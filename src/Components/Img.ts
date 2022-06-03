@@ -1,5 +1,5 @@
 import styled from "styled-components";
-// import ImgHeader from '../src/images/image-header-desktop.jpg'
+import ImgHeader from '../images/image-header-desktop.jpg'
 
 
 export const Img = styled.img`
@@ -10,6 +10,11 @@ export const Img = styled.img`
     background: #AB5CDB;
     opacity: 0.75;
     mix-blend-mode: multiply;
-    background-image: url('../src/images/image-header-desktop.jpg');
+    background-image: url(${ImgHeader});
+
+    /* @media screen and(max-width: 725px){
+        width: 327px;
+        height: 240px;
+    } */
     
 `;
