@@ -6,5 +6,10 @@ export const Capa = styled.div`
     height: 446px;
     position: absolute;
     background: rgba(171, 92, 219, 1);
-    border-radius: 0px 8px 8px 0px;
+    border-radius: 8px 8px 0px 0px;
+
+    @media (max-width: 800px){
+        width: 327px;
+        height: 240px;
+    }
 `;

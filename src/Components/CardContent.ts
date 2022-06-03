@@ -6,4 +6,9 @@ export const CardContent = styled.div`
     height: 446px;
     display: grid;
     /* align-items: center; */
+
+    @media (max-width: 800px){
+        width: 327px;
+        height: 780px;
+    }
 `;

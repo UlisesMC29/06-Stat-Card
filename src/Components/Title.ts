@@ -8,4 +8,14 @@ export const Title = styled.h1`
     color: white;
     width: 403px;
     height: 88px;
+
+    @media (max-width: 800px){
+        font-size: 28px;
+        padding: 280px 0px 56px 32px;
+        text-align: center;
+        width: 264px;
+        height: 96px;
+        margin: 0px;
+    }
+
 `;

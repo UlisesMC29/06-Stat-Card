@@ -12,9 +12,10 @@ export const Img = styled.img`
     mix-blend-mode: multiply;
     /* background-image: url(); */
 
-    /* @media screen and(max-width: 725px){
+    @media (max-width: 800px){
         width: 327px;
         height: 240px;
-    } */
+        display: flex;
+    }
     
 `;

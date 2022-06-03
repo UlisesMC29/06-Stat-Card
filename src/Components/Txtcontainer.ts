@@ -7,5 +7,9 @@ export const Txtcontainer = styled.div`
     padding: 50px 635px 291px 72px;
     /* margin-bottom: 200px; */
 
+    @media (max-width: 800px){
+        padding: 0px;
+    }
+
 
 `;

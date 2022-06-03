@@ -9,9 +9,10 @@ export const Card = styled.div`
     display: block;
     justify-content: center;
 
-    @media screen and(max-width: 725px){
+    @media (max-width: 800px){
         width: 327px;
         height: 780px;
+        margin: 88px 24px;
     }
 
 `;
